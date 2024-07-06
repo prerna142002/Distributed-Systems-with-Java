@@ -1,0 +1,14 @@
+
+System Design
+
+Handle millions of users
+Petabytes of data
+provide a consistent user experience
+
+A distributed system is a system of several processes, running on different computers communicating with each other through the network and sharing a state or working together to achieve a goal.
+
+When we launch an application the OS creates an instance of it in the memory
+Isolated from even the same application.
+
+Intercommunication happens through the File System - Not a distributed system as they are still running on the same machine and we cannot do more than the capability of the machine.
+
